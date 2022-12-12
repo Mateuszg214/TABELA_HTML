@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+    <form autocomplete="off" action="html_page.html" method="get">
+        <label for="fname" >first name: </label>
+        <input id="fname" type="text" name="fname" placeholder="John" maxlength="100" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="lname" >last name: </label>
+        <input id="lname" type="text" name="lname" placeholder="Doe" maxlength="100" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="password">password: </label>
+        <input id="password" type="password" name="password" placeholder="Your password" maxlength="12"  required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="mail" >email: </label>
+        <input id="mail" type="text" name="email" placeholder="your_email_123@gmail.com" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="phone" >phone number: </label>
+        <input id="phone" type="tel" name="phone" placeholder="123456789" maxlength="9" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="bdate" >birth date:  </label>
+        <input id="bdate" type="date" name="bdate" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="quantity" >quantity </label>
+        <input id="quantity" type="number" name="quantity" placeholder="12345" min="0" max="99" value="1" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="title">:title</label>
+
+        <label>Mr.</label>
+        <input type="radio" name="title" value="Mr.">
+
+        <label>Mrs.</label>
+        <input type="radio" name="title" value="Mrs.">
+
+        <label>PhD.</label>
+        <input type="radio" name="title" value="PhD">
+    </div>
+
+    <br>
+
+    <div>
+        <input type="reset">
+    </div>
+
+    <br>
+
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>
